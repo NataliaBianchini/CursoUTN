@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header,.productos,.contenido,.footer{
+    font-family:'Oswald', sans-serif;
+    ;
+}
+/*SMALL*/
+@media (min-width:576px){
+    .header {
+        background: linear-gradient(90deg, rgba(223,178,235,1) 0%, rgb(121, 73, 139) 28%, rgb(87, 31, 139) 100%);
+        height: 120px;
+        display: flex;
+        justify-content: space-between;
+    }
+    body{
+        background: linear-gradient(90deg, rgb(189, 140, 202) 0%, rgb(127, 66, 150) 28%, rgb(63, 15, 107) 100%);
+    }
+    .logo-de-marca{
+        background-image: url(./imagenes-integrador/imagen_logo.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 20%;
+    }
+    .menu{
+        width: 15%;
+        list-style: none;
+        text-align: right;
+        padding-right: 1rem;
+    }
+    .menu li{
+        padding-top: 1rem;
+    }
+    .menu a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: medium; 
+        color: rgb(240, 203, 238);
+    }
+    .productos{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        background-color: rgb(155, 141, 156);
+        text-align: center;
+        color: rgb(250, 248, 250);
+    }
+    .productos img{
+       width: 80%;
+    }
+    .contenido{
+        display: none;
+    }
+    .footer{
+        height: 120px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .contacto{
+        background-color: rgb(216, 211, 215);
+        width: 20%;
+        height: 120;
+        padding-top: 1rem;
+        text-align: center;
+        color: darkmagenta;
+    }
+    .redes{
+        background-color: rgb(221, 200, 233);
+        width: 20%;
+        height: 70px;  
+        padding-top: 1rem;
+        color: rgb(90, 28, 110); 
+        text-align: center;
+    }
+
+}
+/*MEDIUM*/
+@media (min-width:768px) {
+    .contenido{
+        display: block;
+        background-color: rgb(70, 25, 83);
+        color: rgb(251, 248, 252);
+        padding: 1rem;
+        text-align: justify;
+    }
+    .footer{
+        background-image: url(./imagenes-integrador/fondo.webp);
+        background-size: cover;
+    }
+}
+/*LARGE*/
+@media (min-width:992px){
+    .header{
+        background: rgb(149, 138, 151);
+    }
+    .menu{
+        width: 30%;
+        padding-top: 90px;
+        padding-right: 2rem;
+   
+    }
+    .menu li{
+        display: inline;   
+    }
+    .menu a{
+        color: rgb(252, 252, 252);
+    }
+    .productos{
+        flex-direction: row;
+        background-color: rgb(65, 18, 77);
+    }
+    .productos img{
+        height: 80%;
+        padding-top: 2rem;
+    }
+    .contenido{
+        background-color: rgb(233, 208, 245);
+        color: black;
+        font-size: large;
+    }
+    .redes{
+        background-color: rgb(84, 41, 100);
+        color: rgb(235, 179, 235);
+    }
+    .contacto{
+        font-size: medium;
+    }
+}

@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*medium*/
+.header,.productos,.contenido,.footer,.direccion,.contacto_imput,.formulario,.contacto_btn,.info_productos,.info,.contenedor_img,.btn_info{
+    font-family:'Oswald', sans-serif;   
+}
+.header{
+    background-color: rgb(50, 30, 68);
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-de-marca{
+    background-image: url(./img_integrador_final/logo_flor.png);
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+}
+.menu{
+    width: 15%;
+    list-style: none;
+    text-align: right;
+    padding-right: 1rem;
+}
+.menu li{
+    padding-top: 1rem;
+}
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: medium; 
+    color: rgb(240, 203, 238);
+}
+.productos{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: rgb(155, 141, 156);
+    text-align: center;
+    color: rgb(250, 248, 250);
+}
+.productos img{
+    width: 50%;
+    padding: 1rem;
+}
+.contenido{
+    display: none;
+}
+.footer{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./img_integrador_final/foto_flores.jpeg);
+    background-size: cover;
+}
+.direccion{
+    background-color: rgb(216, 211, 215);
+    width: 20%;
+    padding-top: 1rem;
+    text-align: center;
+    color: darkmagenta;
+}
+.redes{
+    background-color: rgb(245, 212, 238);
+    width: 25%;
+    height: 70px;  
+    padding-top: 1rem;
+    color: rgb(90, 28, 110); 
+    text-align: center;
+    align-self: flex-end;
+}
+.contacto{
+    background-color: rgb(241, 192, 229);
+    color: darkmagenta;
+    padding: 1rem;
+}
+.formulario{
+    box-decoration-break: unset;
+}
+.contacto_imput{
+    display: flex;
+    flex-direction: column;
+    background-color: lavender;
+    color: gray;
+    width: 80%;
+    padding: 1rem; 
+    box-shadow: none;  
+}
+.contacto_btn{
+    width: 70px;
+    color: gray;
+    text-decoration-style: solid;
+}
+.info_productos{
+    background-color: rgb(155, 134, 160);
+    color: white;
+    text-align: left;
+    padding: 2rem;
+}
+.info_productos li{
+    list-style: none;
+}
+.btn_info,.info{
+    background-color: lightgray;
+    color: indigo;
+    padding: 1rem;
+}
+.btn_info{
+    text-transform: uppercase;
+}
+.btn_info li{
+    list-style: none;
+    padding-left: 1rem;
+}
+.btn_info a{
+    text-decoration: none;
+}
+.contenedor_img{
+    width: 30%;   
+}
+
+/*MEDIUM*/
+@media (min-width:600px){
+    .header{
+        background: rgb(149, 138, 151);
+    }
+    .menu a{
+        color: rgb(42, 37, 43);
+    }
+    .productos{
+        background-color:rgb(247, 244, 248) ;
+    }
+    .contenido{
+        display: block;
+        background-color: rgb(81, 72, 83);
+        color: rgb(248, 245, 246);
+        padding: 1rem;
+        text-align: justify;
+        font-size: small;
+        font-weight: 100;
+    }
+    .direccion{
+        background-color: rgb(117, 74, 106);
+        color: rgb(243, 235, 243);
+    }
+    .redes{
+        background-color: rgb(160, 78, 139);
+        color: rgb(204, 188, 202);
+    }
+}
+/*LARGE*/
+@media (min-width:1023px){
+    .header{
+        background-image: url(./img_integrador_final/portada.png);
+        background-size: contain;
+        background-position: center;
+    }
+    .logo-de-marca{
+        display: none;
+    }
+    .menu{
+        width: 40%;
+        background-color: antiquewhite;
+        align-self: flex-end;
+        text-align: center;
+   
+    }
+    .menu li{
+        display: inline;
+    }
+    .menu a{
+        color: rgb(20, 19, 19);
+        padding-inline: 1rem;
+    }
+    .productos{
+        flex-direction: row;
+        background-color: rgb(121, 100, 126);
+    }
+    .productos img{
+        flex-direction: row;
+        width: 80%;
+        height: 80%;
+    }
+    .contacto{
+        background-color: rgb(136, 60, 123);
+        color: rgb(248, 232, 248);
+    }
+    .contacto_imput{
+        background-color: rgb(248, 232, 248);
+        color: rgb(51, 50, 50);
+        width: 90%;
+        padding: 1rem; 
+        box-decoration-break: unset; 
+    }
+    .contacto_btn{
+        color: rgb(54, 26, 56);
+    }
+    .info_productos{
+        background-color: rgb(244, 229, 248);
+        color: rgb(87, 45, 81);
+        text-align: center;
+    }
+    .btn_info,.info{
+        background-color: rgb(121, 88, 118);
+        color: rgb(245, 240, 244);
+    }
+    .btn_info a{
+        color: rgb(245, 240, 244);  
+    }
+}

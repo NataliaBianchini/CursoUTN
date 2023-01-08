@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.header,.contenido,.textoprincipal,.footer{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    font-family: 'Teko', sans-serif;
+}
+.header{
+    background: linear-gradient(90deg, rgba(223,178,235,1) 0%, rgba(189,82,230,1) 28%, rgba(130,38,217,1) 100%);
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-de-marca{
+    background-image: url(./imagenes/Imagen_\ logo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 20%;
+}
+.menu{
+    background-color: rgb(247, 210, 247);
+    width: 15%;
+    list-style: none;
+    text-align: right;
+}
+.menu li{
+    padding-top: 1rem;
+}
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: medium; 
+    color: black;
+}
+.contenido{
+    display: flex;
+    height: 500px;    
+}
+.columna1{
+    background-color: mediumpurple;
+    width: 33.33%; 
+}
+.columna1 img{
+    height: 450px;
+    width: 100%;
+}
+.columna2{
+    background-color: lavender;
+    width: 33.33%;
+}
+.columna2 img{
+    height: 450px;
+    width: 100%;
+}
+.columna3{
+    background-color: rgb(251, 126, 255);
+    width: 33.33%;
+}
+.columna3 img{
+    height: 450px;
+    width: 100%;
+}
+.textoprincipal{
+    background-color: rgb(216, 189, 216);
+    height: 70px;
+    text-align: center;
+}
+.footer{
+    background-color: rgb(102, 69, 102);
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.contacto{
+    background-color: lightpink;
+    width: 20%;
+    height: 120;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.redes{
+    background-color: rgb(209, 149, 243);
+    width: 30%;
+    height: 80px;  
+    padding-top: 1rem;
+    font-size: medium; 
+    color: rgb(90, 28, 110); 
+    text-align: center;
+}

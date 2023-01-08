@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body, .btn_nosotros, .info_nosotros {
+    font-family:'Oswald', sans-serif;
+}
+body{
+    background-color: rgb(46, 34, 49);
+}
+.btn_nosotros{
+    text-align: center;
+    display:block;
+    background-color: rgb(221, 200, 233);
+    width: 50%;
+    padding-top: 1rem;
+    color: rgb(90, 28, 110); 
+    text-align: center;
+}  
+.btn_nosotros li{
+    align-content: space-between;
+    padding-top: 1rem;
+    margin: 1rem;
+   }
+.btn_nosotros a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: medium; 
+    color: rgb(240, 203, 238);
+}
+.info_nosotros{
+    background-color: rgb(221, 200, 233);
+    width: 50%;
+    padding-top: 1rem;
+    color: rgb(90, 28, 110); 
+    text-align: center;
+
+}
+.contenedor_img{
+    background-color: rgb(221, 200, 233);
+    width: 60%;
+}

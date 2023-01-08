@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.header, .menu, .alumno{
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    font-family: "Oswald", sans-serif;
+}
+.header{
+    background-color: lavender;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(66, 43, 75);
+}
+.menu{
+    background-color: rgb(167, 76, 124);
+    padding: 2rem;
+}
+.menu li{
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    text-transform:capitalize;
+    font-weight: 200;
+    color: rgb(248, 246, 247);
+}
+.alumno{
+    background-color: rgb(204, 136, 159);
+    height: 90px;
+    color: rgb(59, 54, 59);
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
